@@ -2,25 +2,25 @@ import os
 import sys
 import json
 import re
-import time
-from datetime import datetime
-import undetected_chromedriver as uc
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.support.ui import Select
-from pydantic import BaseModel
-from typing import Optional
-from fastapi import FastAPI, HTTPException, Header
-from fastapi.responses import FileResponse
-from fastapi.staticfiles import StaticFiles
-import httpx
-import logging
-import asyncio
-from selenium.webdriver.chrome.options import Options
-import base64
-import fitz  # PyMuPDF for PDF-to-PNG conversion
+# import time
+# from datetime import datetime
+# import undetected_chromedriver as uc
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
+# from selenium.webdriver.common.action_chains import ActionChains
+# from selenium.webdriver.support.ui import Select
+# from pydantic import BaseModel
+# from typing import Optional
+# from fastapi import FastAPI, HTTPException, Header
+# from fastapi.responses import FileResponse
+# from fastapi.staticfiles import StaticFiles
+# import httpx
+# import logging
+# import asyncio
+# from selenium.webdriver.chrome.options import Options
+# import base64
+# import fitz  # PyMuPDF for PDF-to-PNG conversion
 
 # Create a directory for storing PNG files
 STATIC_DIR = os.path.join(os.getcwd(), "static")
